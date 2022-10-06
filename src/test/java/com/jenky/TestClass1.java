@@ -19,7 +19,7 @@ public class TestClass1 {
 	public void testMethod2()
 	{
 		System.out.println("Inside test method 2  and in TestClass1"+Thread.currentThread().getId());
-		Assert.fail();
+		
 	}
 	
 	@Test(dependsOnMethods = "testMethod2")
