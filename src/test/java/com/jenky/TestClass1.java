@@ -10,7 +10,9 @@ public class TestClass1 {
 
 	@Test
 	public void testMethod1()
+	
 	{
+		//driver.get("https://www.google.com");
 		System.out.println("Inside test method 1 and in TestClass1 "+Thread.currentThread().getId());
 		
 	}

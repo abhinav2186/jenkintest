@@ -1,68 +1,70 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>tcs</groupId>
-  <artifactId>testjenkin</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  
-<properties>
-     <suiteXmlFile>testng.xml
-     </suiteXmlFile>
-</properties>
-  
-  <build>
-<pluginManagement>
-  <plugins>
-  
-    <plugin>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-compiler-plugin</artifactId>
-      <version>3.10.0</version>
-      <configuration>
-      
-      <compilerVersion>1.8</compilerVersion>
-      <source>7</source>
-      <target>7</target>
-      </configuration>
-    </plugin>
-    <plugin>
-    
-    
-    <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-surefire-plugin</artifactId>
-      <version>2.22.2</version>
-    <configuration>
-      <suiteXmlFiles>
-      <suiteXmlFile> ${suiteXmlFile}</suiteXmlFile>
-      
-      </suiteXmlFiles>
-      
-      </configuration>
-    
-    
-    
-    
-    
-    </plugin>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  </plugins>
-</pluginManagement>
-</build>
-  
-  <dependencies>
-  
-  <dependency>
-  <groupId>org.projectlombok</groupId>
-  <artifactId>lombok</artifactId>
-  <version>1.18.22</version>
-</dependency>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>tcs</groupId>
+	<artifactId>testjenkin</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<properties>
+		<suiteXmlFile>testng.xml
+		</suiteXmlFile>
+	</properties>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.10.0</version>
+					<configuration>
+
+						<compilerVersion>1.8</compilerVersion>
+						<source>7</source>
+						<target>7</target>
+					</configuration>
+				</plugin>
+				<plugin>
+
+
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.22.2</version>
+					<configuration>
+						<suiteXmlFiles>
+							<suiteXmlFile> ${suiteXmlFile}</suiteXmlFile>
+
+						</suiteXmlFiles>
+
+					</configuration>
+
+
+
+
+
+				</plugin>
+
+
+
+
+
+
+
+
+
+			</plugins>
+		</pluginManagement>
+	</build>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.22</version>
+		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
 		<dependency>
@@ -110,6 +112,9 @@
 			<artifactId>log4j-core</artifactId>
 			<version>2.19.0</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+
+
 		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 		<dependency>
 			<groupId>com.aventstack</groupId>
@@ -133,25 +138,25 @@
 
 
 	</dependencies>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </project>
