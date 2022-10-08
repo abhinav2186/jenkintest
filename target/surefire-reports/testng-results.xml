@@ -1,65 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-06T17:37:09 IST" name="Suite" finished-at="2022-10-06T17:37:09 IST" duration-ms="65">
+  <suite started-at="2022-10-08T19:47:24 IST" name="Suite" finished-at="2022-10-08T19:47:32 IST" duration-ms="7491">
     <groups>
     </groups>
-    <test started-at="2022-10-06T17:37:09 IST" name="Test" finished-at="2022-10-06T17:37:09 IST" duration-ms="65">
+    <test started-at="2022-10-08T19:47:24 IST" name="Test" finished-at="2022-10-08T19:47:32 IST" duration-ms="7491">
       <class name="com.jenky.TestClass3">
-        <test-method signature="testMethod10()[pri:0, instance:com.jenky.TestClass3@35ef1869]" started-at="2022-10-06T17:37:09 IST" name="testMethod10" finished-at="2022-10-06T17:37:09 IST" duration-ms="1" status="PASS">
+        <test-method signature="testMethod10()[pri:0, instance:com.jenky.TestClass3@56620197]" started-at="2022-10-08T19:47:26 IST" name="testMethod10" finished-at="2022-10-08T19:47:26 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod10 -->
-        <test-method signature="testMethod11()[pri:0, instance:com.jenky.TestClass3@35ef1869]" started-at="2022-10-06T17:37:09 IST" name="testMethod11" finished-at="2022-10-06T17:37:09 IST" duration-ms="1" status="PASS">
+        <test-method signature="testMethod11()[pri:0, instance:com.jenky.TestClass3@56620197]" started-at="2022-10-08T19:47:26 IST" name="testMethod11" finished-at="2022-10-08T19:47:26 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod11 -->
-        <test-method signature="testMethod12()[pri:0, instance:com.jenky.TestClass3@35ef1869]" started-at="2022-10-06T17:37:09 IST" name="testMethod12" finished-at="2022-10-06T17:37:09 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod12 -->
-        <test-method signature="testMethod9()[pri:0, instance:com.jenky.TestClass3@35ef1869]" started-at="2022-10-06T17:37:09 IST" name="testMethod9" finished-at="2022-10-06T17:37:09 IST" duration-ms="0" status="PASS">
+        <test-method signature="testMethod9()[pri:0, instance:com.jenky.TestClass3@56620197]" started-at="2022-10-08T19:47:26 IST" name="testMethod9" finished-at="2022-10-08T19:47:26 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod9 -->
+        <test-method signature="testMethod12()[pri:0, instance:com.jenky.TestClass3@56620197]" started-at="2022-10-08T19:47:26 IST" name="testMethod12" finished-at="2022-10-08T19:47:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod12 -->
       </class> <!-- com.jenky.TestClass3 -->
       <class name="com.jenky.TestClass2">
-        <test-method signature="testMethod5()[pri:0, instance:com.jenky.TestClass2@c33b74f]" started-at="2022-10-06T17:37:09 IST" name="testMethod5" finished-at="2022-10-06T17:37:09 IST" duration-ms="0" status="PASS">
+        <test-method signature="testMethod5()[pri:0, instance:com.jenky.TestClass2@393671df]" started-at="2022-10-08T19:47:26 IST" name="testMethod5" finished-at="2022-10-08T19:47:26 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod5 -->
-        <test-method signature="testMethod6()[pri:0, instance:com.jenky.TestClass2@c33b74f]" started-at="2022-10-06T17:37:09 IST" name="testMethod6" finished-at="2022-10-06T17:37:09 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod6 -->
-        <test-method signature="testMethod7()[pri:0, instance:com.jenky.TestClass2@c33b74f]" started-at="2022-10-06T17:37:09 IST" name="testMethod7" finished-at="2022-10-06T17:37:09 IST" duration-ms="0" status="PASS">
+        <test-method signature="testMethod7()[pri:0, instance:com.jenky.TestClass2@393671df]" started-at="2022-10-08T19:47:26 IST" name="testMethod7" finished-at="2022-10-08T19:47:26 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod7 -->
-        <test-method signature="testMethod8()[pri:0, instance:com.jenky.TestClass2@c33b74f]" started-at="2022-10-06T17:37:09 IST" name="testMethod8" finished-at="2022-10-06T17:37:09 IST" duration-ms="0" status="PASS">
+        <test-method signature="testMethod6()[pri:0, instance:com.jenky.TestClass2@393671df]" started-at="2022-10-08T19:47:26 IST" name="testMethod6" finished-at="2022-10-08T19:47:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod6 -->
+        <test-method signature="testMethod8()[pri:0, instance:com.jenky.TestClass2@393671df]" started-at="2022-10-08T19:47:26 IST" name="testMethod8" finished-at="2022-10-08T19:47:26 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod8 -->
       </class> <!-- com.jenky.TestClass2 -->
       <class name="com.jenky.TestClass1">
-        <test-method signature="testMethod2()[pri:0, instance:com.jenky.TestClass1@31c88ec8]" started-at="2022-10-06T17:37:09 IST" name="testMethod2" finished-at="2022-10-06T17:37:09 IST" duration-ms="5" status="PASS">
+        <test-method signature="testMethod2()[pri:0, instance:com.jenky.TestClass1@2f7298b]" started-at="2022-10-08T19:47:26 IST" name="testMethod2" finished-at="2022-10-08T19:47:26 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod2 -->
-        <test-method signature="testMethod1()[pri:0, instance:com.jenky.TestClass1@31c88ec8]" started-at="2022-10-06T17:37:09 IST" name="testMethod1" finished-at="2022-10-06T17:37:09 IST" duration-ms="0" status="PASS">
+        <test-method signature="testMethod1()[pri:0, instance:com.jenky.TestClass1@2f7298b]" started-at="2022-10-08T19:47:26 IST" name="testMethod1" finished-at="2022-10-08T19:47:26 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod1 -->
-        <test-method signature="testMethod4()[pri:0, instance:com.jenky.TestClass1@31c88ec8]" started-at="2022-10-06T17:37:09 IST" name="testMethod4" finished-at="2022-10-06T17:37:09 IST" duration-ms="0" status="PASS">
+        <test-method signature="testMethod4()[pri:0, instance:com.jenky.TestClass1@2f7298b]" started-at="2022-10-08T19:47:26 IST" name="testMethod4" finished-at="2022-10-08T19:47:26 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod4 -->
-        <test-method signature="testMethod3()[pri:0, instance:com.jenky.TestClass1@31c88ec8]" started-at="2022-10-06T17:37:09 IST" name="testMethod3" finished-at="2022-10-06T17:37:09 IST" depends-on-methods="com.jenky.TestClass1.testMethod2" duration-ms="0" status="PASS">
+        <test-method signature="testMethod3()[pri:0, instance:com.jenky.TestClass1@2f7298b]" started-at="2022-10-08T19:47:26 IST" name="testMethod3" finished-at="2022-10-08T19:47:26 IST" depends-on-methods="com.jenky.TestClass1.testMethod2" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod3 -->
       </class> <!-- com.jenky.TestClass1 -->
+      <class name="com.jenky.LoggerDemo">
+        <test-method signature="logs()[pri:0, instance:com.jenky.LoggerDemo@47af7f3d]" started-at="2022-10-08T19:47:32 IST" name="logs" finished-at="2022-10-08T19:47:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logs -->
+      </class> <!-- com.jenky.LoggerDemo -->
+      <class name="com.screenshot.TestClass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.screenshot.TestClass@74e52303]" started-at="2022-10-08T19:47:24 IST" name="setup" finished-at="2022-10-08T19:47:26 IST" duration-ms="2254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="facebook()[pri:0, instance:com.screenshot.TestClass@74e52303]" started-at="2022-10-08T19:47:26 IST" name="facebook" finished-at="2022-10-08T19:47:27 IST" duration-ms="941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebook -->
+        <test-method signature="google()[pri:0, instance:com.screenshot.TestClass@74e52303]" started-at="2022-10-08T19:47:27 IST" name="google" finished-at="2022-10-08T19:47:29 IST" duration-ms="1408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google -->
+        <test-method signature="twitter()[pri:0, instance:com.screenshot.TestClass@74e52303]" started-at="2022-10-08T19:47:29 IST" name="twitter" finished-at="2022-10-08T19:47:32 IST" duration-ms="2850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twitter -->
+      </class> <!-- com.screenshot.TestClass -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -11,6 +11,7 @@
 			<class name="com.jenky.TestClass2" />
 			<class name="com.jenky.TestClass3" />
 			<class name="com.screenshot.TestClass" />
+			<class name="com.jenky.LoggerDemo" />
 		</classes>
 	</test> <!-- Test -->
 
