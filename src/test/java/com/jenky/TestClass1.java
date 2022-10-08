@@ -8,19 +8,19 @@ import org.testng.annotations.Test;
 public class TestClass1 {
 
 
-	@Test
+	@Test(groups="smoke")
 	public void testMethod1()
 	
 	{
 		//driver.get("https://www.google.com");
-		System.out.println("Inside test method 1 and in TestClass1 "+Thread.currentThread().getId());
+		System.out.println("Inside test method 1 and in TestClass1 with id "+Thread.currentThread().getId());
 		
 	}
 	
-	@Test
+	@Test(groups="sanity")
 	public void testMethod2()
 	{
-		System.out.println("Inside test method 2  and in TestClass1"+Thread.currentThread().getId());
+		System.out.println("Inside test method 2  and in TestClass1 with id "+Thread.currentThread().getId());
 		
 	}
 	
