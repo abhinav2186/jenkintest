@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.ExtentTest;
+
 public class TestClass extends BaseTest{
 
 	@Test
@@ -17,7 +19,9 @@ public class TestClass extends BaseTest{
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		WebElement textbox = driver.findElement(By.xpath("//input[@class='gLFyf gsfi']"));
 		js.executeScript("arguments[0].value='Elucidate Channel Docker and Java'", textbox);
-		
+		ExtentTest test = extent.createTest("ab");
+		test.fail("failed");
+	
 		
 	}
 	
@@ -27,6 +31,9 @@ public class TestClass extends BaseTest{
 	{
 		driver.get("https://www.facebook.com");
 		System.out.println(driver.getTitle());
+		Assert.fail();
+		ExtentTest test = extent.createTest("ab");
+		test.pass("passed");
 		
 	}
 	
@@ -37,6 +44,8 @@ public class TestClass extends BaseTest{
 	{
 		driver.get("https://www.twitter.com");
 		System.out.println(driver.getTitle());
+		ExtentTest test = extent.createTest("ab");
+		test.pass("passed");
 		
 	}
 
